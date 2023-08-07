@@ -13,8 +13,6 @@ export const fetchImages = async (query, page) => {
         orientation: 'horizontal',
         page: page,
         per_page: 12,
-      //   safesearch: true,
-      //   lang: 'en',
       },
     });
 
